@@ -14,17 +14,11 @@
 
 ## ◇ Overview
 
-**WAYPOINT** is an original redesign of the project-management experience
-inspired by Notion.
+**WAYPOINT** is an original redesign of the project-management experience inspired by Notion.
 
-The concept combines the flexibility of a workspace-oriented product
-with a more focused project-management workflow.
+The concept combines the flexibility of a workspace-oriented product with a more focused project-management workflow.
 
-Instead of organizing work primarily around pages and documents, WAYPOINT
-puts **active projects, tasks, deadlines, milestones, ownership and
-progress** at the center of the experience.
-
-The objective is simple:
+Instead of organizing work primarily around pages and documents, WAYPOINT puts **active projects, tasks, deadlines, milestones, ownership and progress** at the center of the experience.
 
 > **Make important work easier to see, understand and move forward.**
 
@@ -32,12 +26,9 @@ The objective is simple:
 
 ## ◇ Why WAYPOINT?
 
-Modern project work often involves information spread across tasks,
-documents, timelines, files, people and conversations.
+Modern project work involves information spread across tasks, documents, timelines, files, people and conversations.
 
-WAYPOINT explores a more connected approach where the most important
-project information can be understood without repeatedly navigating
-between disconnected views.
+WAYPOINT explores a more connected approach where important project information can be understood without repeatedly navigating between disconnected views.
 
 ### The redesign focuses on:
 
@@ -54,7 +45,7 @@ between disconnected views.
 
 ---
 
-# ◇ Experience
+## ◇ Experience Map
 
 ```text
                          WAYPOINT
@@ -72,11 +63,11 @@ between disconnected views.
              └──────┴───────┴───────┴──────┘
                             │
                     TEAM / CALENDAR
+
 ◇ Core Screens
 Dashboard
 
-A high-level command center showing project health, upcoming work,
-overdue tasks, progress, workload and recent activity.
+A high-level command center showing project health, upcoming work, overdue tasks, progress, workload and recent activity.
 
 My Tasks
 
@@ -84,8 +75,7 @@ A focused view of work assigned to the current user.
 
 Projects
 
-A centralized project directory with project status, progress,
-deadlines, owners and task information.
+A centralized project directory with project status, progress, deadlines, owners and task information.
 
 Project Home
 
@@ -97,13 +87,10 @@ Timeline
 Files
 Activity
 Kanban Task Board
-
-A visual workflow organized around:
-
 BACKLOG → TO DO → IN PROGRESS → IN REVIEW → DONE
 Task Details
 
-Detailed task information including:
+Detailed task information includes:
 
 Description
 Status
@@ -118,8 +105,7 @@ Activity
 Dependencies
 Timeline / Gantt
 
-A visual representation of project phases, milestones, progress and
-dependencies.
+A visual representation of project phases, milestones, progress and dependencies.
 
 Calendar
 
@@ -141,8 +127,7 @@ A centralized location for project-related files and assets.
 
 Notifications
 
-A focused notification center for assignments, mentions, comments,
-deadlines and project activity.
+A focused notification center for assignments, mentions, comments, deadlines and project activity.
 
 ◇ Design Philosophy
 
@@ -150,8 +135,7 @@ WAYPOINT follows six core principles.
 
 01 — Clarity over decoration
 
-Every visual element should help users understand information or take
-action.
+Every visual element should help users understand information or take action.
 
 02 — Information hierarchy
 
@@ -159,18 +143,15 @@ Important project information should be visible before secondary details.
 
 03 — Context
 
-Tasks should retain their project, ownership, priority and deadline
-context.
+Tasks should retain their project, ownership, priority and deadline context.
 
 04 — Progressive disclosure
 
-Detailed information should appear when it is needed rather than
-overloading the primary interface.
+Detailed information should appear when it is needed rather than overloading the primary interface.
 
 05 — Consistency
 
-Repeated interactions should behave and look consistently throughout
-the product.
+Repeated interactions should behave and look consistently throughout the product.
 
 06 — Calm productivity
 
@@ -206,8 +187,7 @@ Metadata
 
 JetBrains Mono
 
-The combination creates a visual identity that feels different from a
-typical generic SaaS dashboard while maintaining interface readability.
+The combination creates a distinctive visual identity while maintaining interface readability.
 
 ◇ Theme System
 
@@ -227,45 +207,38 @@ Subtle borders
 Adjusted semantic colors
 System
 
-The interface can follow the user's operating-system appearance
-preference.
+The interface can follow the user's operating-system appearance preference.
 
 Theme selection is intended to persist between sessions.
 
 ◇ UX Improvements
 Project Health at a Glance
 
-Project status, progress, deadlines and blockers are brought together
-to reduce the effort required to understand project health.
+Project status, progress, deadlines and blockers are brought together to reduce the effort required to understand project health.
 
 Active-Work Navigation
 
-Navigation is organized around the work users are actively managing
-rather than relying entirely on a page hierarchy.
+Navigation is organized around the work users are actively managing rather than relying entirely on a page hierarchy.
 
 Dedicated Task Workflow
 
-Tasks receive a focused workflow with visible status, priority,
-ownership, deadlines and progress.
+Tasks receive a focused workflow with visible status, priority, ownership, deadlines and progress.
 
 Milestones & Dependencies
 
-The timeline makes project sequencing and dependencies easier to
-understand visually.
+The timeline makes project sequencing and dependencies easier to understand visually.
 
 Team Workload
 
-Work ownership and workload become visible through a dedicated team
-workspace.
+Work ownership and workload become visible through a dedicated team workspace.
 
 Centralized Context
 
-Tasks, files, milestones, activity and team information remain connected
-to their project.
+Tasks, files, milestones, activity and team information remain connected to their project.
 
 Quick Actions
 
-Frequently used actions are surfaced through direct controls such as:
+Frequently used actions are surfaced through direct controls:
 
 + TASK       + PROJECT
 ◇ Information Architecture
@@ -292,6 +265,7 @@ WAYPOINT
 ├── Notifications
 ├── Settings
 └── Profile
+
 ◇ Interaction Design
 
 The interface considers the complete interaction lifecycle.
@@ -441,12 +415,12 @@ REFERENCE PRODUCT ANALYSIS
     TESTING & REFINEMENT
             ↓
         DEPLOYMENT
+
 ◇ Figma
 
-The Figma workspace contains the design process from structure to
-high-fidelity interface.
+The Figma workspace documents the design process from structure to high-fidelity interface.
 
-Planned design documentation includes:
+It includes:
 
 User flows
 Low-fidelity wireframes
@@ -462,10 +436,7 @@ INSERT FIGMA VIEW-ONLY LINK
 
 ◇ Project Report
 
-The detailed project report documents the design process, information
-architecture, screen architecture, design system, interaction design,
-accessibility considerations, implementation approach and evaluation
-against the project requirements.
+The detailed project report documents the design process, information architecture, screen architecture, design system, interaction design, accessibility considerations, implementation approach and evaluation against the project requirements.
 
 View Detailed Project Report
 
@@ -478,8 +449,7 @@ INSERT DEPLOYED PROJECT LINK
 
 ◇ Project Walkthrough
 
-A short walkthrough demonstrates the redesigned experience, key
-features, design decisions and project learnings.
+A short walkthrough demonstrates the redesigned experience, key features, design decisions and project learnings.
 
 Feedback / Walkthrough Video:
 INSERT VIDEO LINK
@@ -553,9 +523,7 @@ Know the work. Move it forward.
 
 WAYPOINT is an original identity created for this redesign project.
 
-The project is inspired by Notion's workspace and project-management
-concepts but does not reproduce Notion's proprietary branding, logo,
-or visual assets.
+The project is inspired by Notion's workspace and project-management concepts but does not reproduce Notion's proprietary branding, logo, or visual assets.
 
 ◇ Author
 
