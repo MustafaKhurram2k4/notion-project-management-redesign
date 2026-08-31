@@ -63,185 +63,217 @@ WAYPOINT explores a more connected approach where important project information 
              └──────┴───────┴───────┴──────┘
                             │
                     TEAM / CALENDAR
+````
 
-◇ Core Screens
-Dashboard
+---
+
+## ◇ Core Screens
+
+### Dashboard
 
 A high-level command center showing project health, upcoming work, overdue tasks, progress, workload and recent activity.
 
-My Tasks
+### My Tasks
 
 A focused view of work assigned to the current user.
 
-Projects
+### Projects
 
 A centralized project directory with project status, progress, deadlines, owners and task information.
 
-Project Home
+### Project Home
 
 A single workspace connecting:
 
-Overview
-Tasks
-Timeline
-Files
-Activity
-Kanban Task Board
+* Overview
+* Tasks
+* Timeline
+* Files
+* Activity
+
+### Kanban Task Board
+
+```text
 BACKLOG → TO DO → IN PROGRESS → IN REVIEW → DONE
-Task Details
+```
+
+### Task Details
 
 Detailed task information includes:
 
-Description
-Status
-Priority
-Assignee
-Due date
-Tags
-Checklist
-Attachments
-Comments
-Activity
-Dependencies
-Timeline / Gantt
+* Description
+* Status
+* Priority
+* Assignee
+* Due date
+* Tags
+* Checklist
+* Attachments
+* Comments
+* Activity
+* Dependencies
+
+### Timeline / Gantt
 
 A visual representation of project phases, milestones, progress and dependencies.
 
-Calendar
+### Calendar
 
 Month, week and agenda views for deadlines, tasks and milestones.
 
-Team Workload
+### Team Workload
 
 A dedicated view for understanding:
 
-Team members
-Roles
-Assigned work
-Active tasks
-Completed tasks
-Workload
-Files & Assets
+* Team members
+* Roles
+* Assigned work
+* Active tasks
+* Completed tasks
+* Workload
+
+### Files & Assets
 
 A centralized location for project-related files and assets.
 
-Notifications
+### Notifications
 
 A focused notification center for assignments, mentions, comments, deadlines and project activity.
 
-◇ Design Philosophy
+---
+
+## ◇ Design Philosophy
 
 WAYPOINT follows six core principles.
 
-01 — Clarity over decoration
+### 01 — Clarity over decoration
 
 Every visual element should help users understand information or take action.
 
-02 — Information hierarchy
+### 02 — Information hierarchy
 
 Important project information should be visible before secondary details.
 
-03 — Context
+### 03 — Context
 
 Tasks should retain their project, ownership, priority and deadline context.
 
-04 — Progressive disclosure
+### 04 — Progressive disclosure
 
 Detailed information should appear when it is needed rather than overloading the primary interface.
 
-05 — Consistency
+### 05 — Consistency
 
 Repeated interactions should behave and look consistently throughout the product.
 
-06 — Calm productivity
+### 06 — Calm productivity
 
 The interface should feel focused, professional and purposeful.
 
-◇ Visual Direction
+---
 
-The interface follows an editorial + architectural visual language.
+## ◇ Visual Direction
+
+The interface follows an **editorial + architectural** visual language.
 
 The visual system combines:
 
-Strong typographic hierarchy
-Editorial display typography
-Monospace metadata
-Precise spacing
-Hairline borders
-Structured grids
-Restrained surfaces
-High-contrast navigation
-Semantic status indicators
-Minimal visual noise
-Typography
+* Strong typographic hierarchy
+* Editorial display typography
+* Monospace metadata
+* Precise spacing
+* Hairline borders
+* Structured grids
+* Restrained surfaces
+* High-contrast navigation
+* Semantic status indicators
+* Minimal visual noise
 
-Display
+### Typography
+
+**Display**
 
 Cormorant Garamond / Playfair Display
 
-Interface
+**Interface**
 
 Plus Jakarta Sans
 
-Metadata
+**Metadata**
 
 JetBrains Mono
 
 The combination creates a distinctive visual identity while maintaining interface readability.
 
-◇ Theme System
+---
+
+## ◇ Theme System
 
 WAYPOINT is designed around a deliberate theme system.
 
-Light
-Off-white workspace
-Clean surfaces
-Strong text hierarchy
-Subtle borders
-Restrained semantic accents
-Dark
-Deep charcoal workspace
-Layered dark surfaces
-High-contrast typography
-Subtle borders
-Adjusted semantic colors
-System
+### Light
+
+* Off-white workspace
+* Clean surfaces
+* Strong text hierarchy
+* Subtle borders
+* Restrained semantic accents
+
+### Dark
+
+* Deep charcoal workspace
+* Layered dark surfaces
+* High-contrast typography
+* Subtle borders
+* Adjusted semantic colors
+
+### System
 
 The interface can follow the user's operating-system appearance preference.
 
 Theme selection is intended to persist between sessions.
 
-◇ UX Improvements
-Project Health at a Glance
+---
+
+## ◇ UX Improvements
+
+### Project Health at a Glance
 
 Project status, progress, deadlines and blockers are brought together to reduce the effort required to understand project health.
 
-Active-Work Navigation
+### Active-Work Navigation
 
 Navigation is organized around the work users are actively managing rather than relying entirely on a page hierarchy.
 
-Dedicated Task Workflow
+### Dedicated Task Workflow
 
 Tasks receive a focused workflow with visible status, priority, ownership, deadlines and progress.
 
-Milestones & Dependencies
+### Milestones & Dependencies
 
 The timeline makes project sequencing and dependencies easier to understand visually.
 
-Team Workload
+### Team Workload
 
 Work ownership and workload become visible through a dedicated team workspace.
 
-Centralized Context
+### Centralized Context
 
 Tasks, files, milestones, activity and team information remain connected to their project.
 
-Quick Actions
+### Quick Actions
 
 Frequently used actions are surfaced through direct controls:
 
+```text
 + TASK       + PROJECT
-◇ Information Architecture
+```
+
+---
+
+## ◇ Information Architecture
+
+```text
 WAYPOINT
 │
 ├── Overview
@@ -265,114 +297,144 @@ WAYPOINT
 ├── Notifications
 ├── Settings
 └── Profile
+```
 
-◇ Interaction Design
+---
+
+## ◇ Interaction Design
 
 The interface considers the complete interaction lifecycle.
 
-States
-Default
-Hover
-Focus
-Active
-Disabled
-Loading
-Empty
-Success
-Error
-Task interactions
+### States
+
+* Default
+* Hover
+* Focus
+* Active
+* Disabled
+* Loading
+* Empty
+* Success
+* Error
+
+### Task interactions
 
 Users can work with:
 
-Status
-Priority
-Assignee
-Due dates
-Tags
-Checklists
-Comments
-Attachments
-Dependencies
-Project interactions
+* Status
+* Priority
+* Assignee
+* Due dates
+* Tags
+* Checklists
+* Comments
+* Attachments
+* Dependencies
+
+### Project interactions
 
 Project workflows include:
 
-Project creation
-Project editing
-Project status
-Project progress
-Project ownership
-Milestones
-Tasks
-Files
-Activity
-◇ Component System
+* Project creation
+* Project editing
+* Project status
+* Project progress
+* Project ownership
+* Milestones
+* Tasks
+* Files
+* Activity
+
+---
+
+## ◇ Component System
 
 The interface is structured around reusable components.
 
-Navigation
-Sidebar
-Topbar
-Breadcrumbs
-Workspace switcher
-Controls
-Buttons
-Icon buttons
-Inputs
-Search
-Dropdowns
-Selects
-Date controls
-Tabs
-Information
-Cards
-Tables
-Badges
-Avatars
-Progress indicators
-Status indicators
-Overlays
-Modals
-Drawers
-Toasts
-Confirmation dialogs
-Project Management
-Task cards
-Project cards
-Kanban columns
-Timeline items
-Calendar events
-Checklists
-Activity items
-◇ Accessibility
+### Navigation
+
+* Sidebar
+* Topbar
+* Breadcrumbs
+* Workspace switcher
+
+### Controls
+
+* Buttons
+* Icon buttons
+* Inputs
+* Search
+* Dropdowns
+* Selects
+* Date controls
+* Tabs
+
+### Information
+
+* Cards
+* Tables
+* Badges
+* Avatars
+* Progress indicators
+* Status indicators
+
+### Overlays
+
+* Modals
+* Drawers
+* Toasts
+* Confirmation dialogs
+
+### Project Management
+
+* Task cards
+* Project cards
+* Kanban columns
+* Timeline items
+* Calendar events
+* Checklists
+* Activity items
+
+---
+
+## ◇ Accessibility
 
 Accessibility is considered as part of the interface system.
 
 The experience accounts for:
 
-Semantic HTML
-Keyboard-friendly interaction
-Visible focus states
-Accessible labels
-ARIA labels for icon-only controls
-Readable typography
-Logical interaction order
-Color contrast
-◇ Technology
+* Semantic HTML
+* Keyboard-friendly interaction
+* Visible focus states
+* Accessible labels
+* ARIA labels for icon-only controls
+* Readable typography
+* Logical interaction order
+* Color contrast
+
+---
+
+## ◇ Technology
 
 The application is built around a modern frontend stack.
 
-Technology	Purpose
-React	UI architecture
-TypeScript	Type safety
-Vite	Development and build tooling
-Tailwind CSS	Styling system
-React Router	Application navigation
-Lucide React	Interface icons
-Motion	Interface animation
-Recharts	Data visualization where applicable
-LocalStorage	Frontend persistence where applicable
-◇ Project Structure
+| Technology   | Purpose                               |
+| ------------ | ------------------------------------- |
+| React        | UI architecture                       |
+| TypeScript   | Type safety                           |
+| Vite         | Development and build tooling         |
+| Tailwind CSS | Styling system                        |
+| React Router | Application navigation                |
+| Lucide React | Interface icons                       |
+| Motion       | Interface animation                   |
+| Recharts     | Data visualization where applicable   |
+| LocalStorage | Frontend persistence where applicable |
+
+---
+
+## ◇ Project Structure
+
+```text
 notion-project-management-redesign/
 │
 ├── public/
@@ -395,7 +457,13 @@ notion-project-management-redesign/
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
-◇ Project Workflow
+```
+
+---
+
+## ◇ Project Workflow
+
+```text
 REFERENCE PRODUCT ANALYSIS
             ↓
       UX OPPORTUNITIES
@@ -415,126 +483,158 @@ REFERENCE PRODUCT ANALYSIS
     TESTING & REFINEMENT
             ↓
         DEPLOYMENT
+```
 
-◇ Figma
+---
+
+## ◇ Figma
 
 The Figma workspace documents the design process from structure to high-fidelity interface.
 
 It includes:
 
-User flows
-Low-fidelity wireframes
-Information architecture
-Design system
-High-fidelity screens
-Light mode
-Dark mode
-Interactive prototype
+* User flows
+* Low-fidelity wireframes
+* Information architecture
+* Design system
+* High-fidelity screens
+* Light mode
+* Dark mode
+* Interactive prototype
 
-Figma View-Only:
-INSERT FIGMA VIEW-ONLY LINK
+**Figma View-Only:**
+`INSERT FIGMA VIEW-ONLY LINK`
 
-◇ Project Report
+---
+
+## ◇ Project Report
 
 The detailed project report documents the design process, information architecture, screen architecture, design system, interaction design, accessibility considerations, implementation approach and evaluation against the project requirements.
 
-View Detailed Project Report
+**[View Detailed Project Report](./report/Notion_Project_Management_Redesign_Report.pdf)**
 
-◇ Live Demo
+---
+
+## ◇ Live Demo
 
 The deployed application will be available here:
 
-Live Application:
-INSERT DEPLOYED PROJECT LINK
+**Live Application:**
+`INSERT DEPLOYED PROJECT LINK`
 
-◇ Project Walkthrough
+---
+
+## ◇ Project Walkthrough
 
 A short walkthrough demonstrates the redesigned experience, key features, design decisions and project learnings.
 
-Feedback / Walkthrough Video:
-INSERT VIDEO LINK
+**Feedback / Walkthrough Video:**
+`INSERT VIDEO LINK`
 
-◇ Testing Checklist
+---
+
+## ◇ Testing Checklist
 
 Before final release, the application should be reviewed for:
 
- Navigation
- Routing
- Login / authentication flow
- Logout
- Theme switching
- Theme persistence
- Task creation
- Task editing
- Task deletion
- Kanban interactions
- Project creation
- Project editing
- Project details
- Search
- Filtering
- Sorting
- Calendar
- Timeline
- Team workload
- Files
- Notifications
- Profile
- Empty states
- Loading states
- Success feedback
- Error feedback
- Keyboard interaction
- Dark-mode consistency
- Desktop layout
-◇ Deliverables
-Design
-Figma research
-User flows
-Wireframes
-Information architecture
-Design system
-High-fidelity UI
-Light mode
-Dark mode
-Interactive prototype
-Development
-React application
-TypeScript source
-Reusable components
-Project management workflows
-Task management workflows
-Timeline
-Calendar
-Team views
-File views
-Theme system
-Documentation
-Detailed project report
-GitHub repository
-Design rationale
-Testing documentation
-Presentation
-Deployed application
-Project walkthrough / feedback video
-◇ Project Identity
-WAYPOINT
-Know the work. Move it forward.
+* [ ] Navigation
+* [ ] Routing
+* [ ] Login / authentication flow
+* [ ] Logout
+* [ ] Theme switching
+* [ ] Theme persistence
+* [ ] Task creation
+* [ ] Task editing
+* [ ] Task deletion
+* [ ] Kanban interactions
+* [ ] Project creation
+* [ ] Project editing
+* [ ] Project details
+* [ ] Search
+* [ ] Filtering
+* [ ] Sorting
+* [ ] Calendar
+* [ ] Timeline
+* [ ] Team workload
+* [ ] Files
+* [ ] Notifications
+* [ ] Profile
+* [ ] Empty states
+* [ ] Loading states
+* [ ] Success feedback
+* [ ] Error feedback
+* [ ] Keyboard interaction
+* [ ] Dark-mode consistency
+* [ ] Desktop layout
+
+---
+
+## ◇ Deliverables
+
+### Design
+
+* Figma research
+* User flows
+* Wireframes
+* Information architecture
+* Design system
+* High-fidelity UI
+* Light mode
+* Dark mode
+* Interactive prototype
+
+### Development
+
+* React application
+* TypeScript source
+* Reusable components
+* Project management workflows
+* Task management workflows
+* Timeline
+* Calendar
+* Team views
+* File views
+* Theme system
+
+### Documentation
+
+* Detailed project report
+* GitHub repository
+* Design rationale
+* Testing documentation
+
+### Presentation
+
+* Deployed application
+* Project walkthrough / feedback video
+
+---
+
+## ◇ Project Identity
+
+# WAYPOINT
+
+### *Know the work. Move it forward.*
 
 WAYPOINT is an original identity created for this redesign project.
 
 The project is inspired by Notion's workspace and project-management concepts but does not reproduce Notion's proprietary branding, logo, or visual assets.
 
-◇ Author
+---
 
-Mustafa Khurram
+## ◇ Author
+
+**Mustafa Khurram**
 
 UI/UX Design · Frontend Development · Product Design
 
+---
+
 <p align="center">
 
-WAYPOINT
+**WAYPOINT**
 
-Know the work. Move it forward.
+*Know the work. Move it forward.*
 
-</p> ```
+</p>
+```
