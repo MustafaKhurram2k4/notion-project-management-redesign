@@ -1,0 +1,6 @@
+{
+  "name": "WAYPOINT — Project Workspace",
+  "description": "A high-end, structured redesign of Notion's project management experience focusing on project health, task velocity, milestones, deadlines, and team workload.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
